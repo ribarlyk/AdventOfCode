@@ -2,7 +2,7 @@
 
 const fs = require("fs");
 
-const filePath = "Day2.txt";
+const filePath = "Day2.2.txt";
 fs.readFile(filePath, "utf8", (err, data) => {
   const lines = data.split(/\n/);
 
